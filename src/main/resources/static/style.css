@@ -1,0 +1,12 @@
+body {
+    font-family: Arial;
+    padding: 25px;
+    width: 50%;
+}
+
+footer {
+    display: block;
+
+    text-align: center;
+    padding: 14px 16px;
+}

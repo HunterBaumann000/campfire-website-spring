@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Campfires and How to Construct Them</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" th:href="@{/style.css}">
+</head>
+<body>
+
+<div th:insert="fragments/_header :: header"></div>
+
+<div class="container" style="background-color: #f1c7ad;">
+    <h2 class="p-2 p-1">
+        Three Types of Campfires and Their Purpose!
+    </h2>
+    <hr/>
+    <div class="text-center mb-1 ml-5">
+        <img th:src="@{/img/people-singing-around-a-campfire-1200x854.jpg}" alt="People Around Campfire" width="80%" height="80%">
+    </div>
+
+
+    <p>
+    Making a campfire that is refined for what you're trying to do can be really beneficial. There are many
+    types of campfire designs, some meant for blocking wind, others meant for increasing the longevity of the campfire.
+    This short guide will show three different campfire building techniques and their purpose.
+    </p>
+
+    <p>Images were taken from <a
+            href="https://www.cabinlife.com/articles/the-5-best-campfire-lays-and-how-to-build-them">here.</a>
+    </p>
+
+    <p>Content was taken from
+        <a href="https://www.discovery.com/exploration/how-to-build-the-7-different-campfires-you-ll-need-this-summer">here.</a>
+    </p>
+
+    <hr>
+
+    <div class="text-center">
+        <a class="nav-link" th:href="@{/campfires/tepee}">>>> Next Page >>></a>
+    </div>
+
+</div>
+<div th:replace="fragments/_footer :: footer"></div>
+</body>
+</html>
